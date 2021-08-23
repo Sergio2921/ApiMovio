@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.tittle {
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+#tltVerS {
+    text-align: center;
+}
+
+.tittle:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient( 135deg, #FF9C63, #27BA87);
+}
+
+.cont-agr {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    background-color: #F4F4F4;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .17);
+    padding: 25px 47px;
+}
+
+.form-cbr {
+    margin-top: 40px;
+}
+
+.cont-cbr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.input-style {
+    width: 70%;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-left: 7px;
+}
+
+.input-style:hover {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+    transition: .9;
+}
+
+.btnAgr {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #FF9C63;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 4% 0 7% 0;
+    transition: .5s;
+    justify-content: center;
+}
+
+.btnAgr:hover {
+    background-color: #27BA87;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .27);
+}
